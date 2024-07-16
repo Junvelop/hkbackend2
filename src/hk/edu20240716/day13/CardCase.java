@@ -36,6 +36,8 @@ public class CardCase {
 	public List<Card> getCards(){
 		return cards;
 	}
+	
+	
 }
 
 
