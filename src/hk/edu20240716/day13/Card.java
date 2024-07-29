@@ -44,6 +44,13 @@ public class Card {
 		}
 		return isS;
 	}
+	
+	
+	
+	
+	
+	
+	
 	//equals오버라이딩하면 hashcode도 오버라이딩해야 됨
 	@Override
 	public int hashCode() {

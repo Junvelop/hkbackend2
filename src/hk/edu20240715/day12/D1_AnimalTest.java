@@ -20,7 +20,7 @@ public class D1_AnimalTest {
 		
 		//2.부모의 타입으로 자식을 참조한다.
 		D1_Human human1=new D1_Human();//자식객체 생성해서
-		D1_Animal animal4=human1;//부모타입으로 참조한다.
+		D1_Animal animal4=human1;//자식 타입으로 참조한다.
 		
 		D1_AnimalTest aTest=new D1_AnimalTest();
 		aTest.moveAnimal(animal1);
@@ -40,7 +40,7 @@ public class D1_AnimalTest {
 		}else if(animal instanceof D1_Eagle) {
 			D1_Eagle human2=(D1_Eagle)animal;
 			human2.test();
-		}
+		} 
 		
 	}
 	
